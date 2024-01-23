@@ -5,7 +5,7 @@
  *   * @head: A pointer to the head of the list.
  *    * @node_0:  the first node to swap.
  *     * @node_1: the second node to swap.
- *      */
+ */
 
 void swap_l_list(listint_t **head, listint_t **node_0, listint_t *node_1)
 {
@@ -40,7 +40,7 @@ void swap_l_list(listint_t **head, listint_t **node_0, listint_t *node_1)
  *  * insertion_sort_list - Sorts a doubly linked list of integers
  *   * @list: A pointer to the head of a list
  *    * Description: Prints the list after every swap.
- *     */
+ */
 
 void insertion_sort_list(listint_t **list)
 {

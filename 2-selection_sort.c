@@ -4,7 +4,7 @@
  *  * swap_nodes - func to swap two integers
  *   * @var_0: The first num to swap.
  *    * @var_1: The second num to swap.
- *     */
+ */
 void swap_nodes(int *var_0, int *var_1)
 {
 	int temp_;
@@ -19,7 +19,7 @@ void swap_nodes(int *var_0, int *var_1)
  *   * @array: An array of numbers.
  *    * @size: The size of the array.
  *     * Description: Prints the array after every swap.
- *      */
+ */
 void selection_sort(int *array, size_t size)
 {
 	int *min_;
