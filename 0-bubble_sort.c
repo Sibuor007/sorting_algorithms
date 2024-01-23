@@ -1,10 +1,10 @@
 #include "sort.h"
 
 /**
- *  * swap_nums - func to swap two numbers in an array.
- *   * @var_0: The first number to swap.
- *    * @var_1: The second number to swap.
- *     */
+ * swap_nums - func to swap two numbers in an array.
+ * @var_0: The first number to swap.
+ * @var_1: The second number to swap.
+ */
 void swap_nums(int *var_0, int *var_1)
 {
 	int temp;
@@ -15,11 +15,11 @@ void swap_nums(int *var_0, int *var_1)
 }
 
 /**
- *  * bubble_sort - func to sort an array in ascending order.
- *   * @array: An array of numbers to sort.
- *    * @size: The size of the array.
- *     * Description: Prints the array after every swap
- *      */
+ * bubble_sort - func to sort an array in ascending order.
+ * @array: An array of numbers to sort.
+ * @size: The size of the array.
+ * Description: Prints the array after every swap
+ */
 void bubbleSort(int *array, size_t size)
 {
 	size_t item, length = size;
