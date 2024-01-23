@@ -15,7 +15,7 @@ void swap_nodes(int *var_0, int *var_1)
 }
 
 /**
- * shell_sort - Sort an array of integers in ascending order 
+ * shell_sort - Sort an array of integers in ascending order
  * @array: An array of integers
  * @size: The size of the array
  * Description: Uses the Knuth interval sequence
