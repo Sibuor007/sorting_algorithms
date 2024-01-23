@@ -23,14 +23,14 @@ void swap_nums(int *var_0, int *var_1)
 void bubbleSort(int *array, size_t size)
 {
 	size_t item, length = size;
-	int flag;
+	bool flag= false;
 
 	if (array == NULL || size < 2)
 		return;
 
 	do
 	{
-		flag = 0;
+		flag = false;
 		for (item = 0; item < length - 1; item++)
 		{
 			if (array[item] > array[item + 1])
@@ -41,7 +41,7 @@ void bubbleSort(int *array, size_t size)
 				array[item + 1] = temp;
 
 				print_array(array, size);
-				flag = 1;
+				flag = true;
 			}
 		}
 		length--;
