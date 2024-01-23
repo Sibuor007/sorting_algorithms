@@ -1,19 +1,21 @@
 #include "sort.h"
 
-void sub_arr_merge(int *sub_arr, int *buff_, size_t head_, size_t mid, size_t tail);
+void sub_arr_merge(int *sub_arr, int *buff_, size_t head_,
+		size_t mid, size_t tail);
 void merge_recursive(int *sub_arr, int *buff_, size_t head_, size_t tail);
 void merge_sort(int *array, size_t size);
 
 /**
  * sub_arr_merge - func to sort a sub_array of integers.
  * @sub_arr: A sub_array of an array of integers
- * @buff_: A buffer to store the sorted sub_array     
+ * @buff_: A buffer to store the sorted sub_array
  * @head_: The head_ index of the array
  * @mid: The middle index of the array
  * @tail: The tail index of the array
  */
 
-void sub_arr_merge(int *sub_arr, int *buff_, size_t head_, size_t mid, size_t tail)
+void sub_arr_merge(int *sub_arr, int *buff_, size_t head_,
+		size_t mid, size_t tail)
 {
 	size_t m, n, p = 0;
 
