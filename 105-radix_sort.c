@@ -24,7 +24,8 @@ int max_value(int *array, int size)
 }
 
 /**
- * radix_counting - func sort the sig_dig of an array of integers in ascending order 
+ * radix_counting - func sort the sig_dig of an array of
+ * integers in ascending order
  * @array: An array of integers
  * @size: The size of the array
  * @sig_digit: The significant digit to sort on
@@ -53,7 +54,7 @@ void radix_counting(int *array, size_t size, int sig_digit, int *buff_er)
 }
 
 /**
- * radix_sort - func to sort an array of integers in ascending order 
+ * radix_sort - func to sort an array of integers in ascending order
  * @array: An array of integers
  * @size: The size of the array
  * Description: Implements the radix sort algorithm
