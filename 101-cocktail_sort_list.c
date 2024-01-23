@@ -31,7 +31,7 @@ void swap_node_next(listint_t **list, listint_t **tail_, listint_t **shaker_)
 }
 
 /**
- * swap_node_prev - func to swap a node in a linked list with the node behind it.
+ * swap_node_prev - func to swap node in a linked list with the node behind it
  * @list: A pointer to the head of a doubly-linked list
  * @tail_: A pointer to the tail_ of the doubly-linked list.
  * @shaker_: A pointer to the current swapping node
@@ -57,7 +57,8 @@ void swap_node_prev(listint_t **list, listint_t **tail_, listint_t **shaker_)
 }
 
 /**
- * cocktail_sort_list - func to sort a doubly-linked list of integers in ascending order
+ * cocktail_sort_list - func to sort a doubly-linked list of
+ * integers in ascending order
  * @list: A pointer to the head of a doubly-linked list.
  */
 
